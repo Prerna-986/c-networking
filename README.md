@@ -43,7 +43,7 @@ Full-Duplex
 In full-duplex , both stations can transmit and receive simultaneously
 The full-duplex mode is like a tW<D-way street with traffic flowing in both directions
 at the same time. In full-duplex mode, si~nals going in one direction share the
-capacity of the link: with signals going in the other din~c~on. This sharing can occur in
+capacity of the link: with signals going in the other direction. This sharing can occur in
 two ways: Either the link must contain two physically separate tranmsmissiIDn paths, one
 for sending and the other for receiving; or the capacity of the ch:arillilel is divided
 between signals traveling in both directions.

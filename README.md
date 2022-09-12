@@ -39,6 +39,7 @@ are both half-duplex systems.
 The half-duplex mode is used in cases where there is no need for communication
 in both directions at the same time; the entire capacity of the channel can be utilized for
 each direction.
+
 Full-Duplex
 In full-duplex , both stations can transmit and receive simultaneously
 The full-duplex mode is like a tW<D-way street with traffic flowing in both directions
@@ -47,9 +48,11 @@ capacity of the link: with signals going in the other direction. This sharing ca
 two ways: Either the link must contain two physically separate tranmsmissiIDn paths, one
 for sending and the other for receiving; or the capacity of the ch:arillilel is divided
 between signals traveling in both directions.
+                                        
 One common example of full-duplex communication is the telephone network.
 When two people are communicating by a telephone line, both can talk and listen at the
 same time.
+                                        
 The full-duplex mode is used when communication in both directions is required
 all the time. The capacity of the channel, however, must be divided between the two
 directions.
@@ -182,6 +185,7 @@ packet and delivers it to the transport layer at the destination machine. A conn
 transport layer makes a connection with the transport layer at the destination
 machine first before delivering the packets. After all the data are transferred,
 the connection is terminated.
+ 
 o Error control. Like the data link layer, the transport layer is responsible for
 error control. However, error control at this layer is performed process-toprocess
 rather than across a single link. The sending transport layer makes sure

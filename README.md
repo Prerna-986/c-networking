@@ -146,3 +146,58 @@ trailer added to the end of the frame.
  Access control. When two or more devices are connected to the same link, data
 link layer protocols are necessary to determine which device has control over the
 link at any given time.
+
+Network Layer
+The network layer is responsible for the source-to-destination delivery of a packet,
+possibly across multiple networks (links). Whereas the data link layer oversees the
+delivery of the packet between two systems on the same network (links), the network
+layer ensures that each packet gets from its point of origin to its final destination.
+If two systems are connected to the same link, there is usually no need for a network
+layer. However, if the two systems are attached to different networks (links) with
+connecting devices between the networks (links), there is often a need for the network
+layer to accomplish source-to-destination delivery. 
+Other responsibilities of the network layer include the following:
+o Logical addressing. The physical addressing implemented by the data link layer
+handles the addressing problem locally. If a packet passes the network boundary,
+we need another addressing system to help distinguish the source and destination
+systems. The network layer adds a header to the packet coming from the upper
+layer that, among other things, includes the logical addresses of the sender and
+receiver. 
+o Routing. When independent networks or links are connected to create intemetworks
+(network of networks) or a large network, the connecting devices (called routers or switches)
+route or switch the packets to their final destination. One of the functions
+of the network layer is to provide this mechanism.
+
+Transport Layer
+The transport layer is responsible for process-to-process delivery of the entire message.
+A process is an application program running on a host. Whereas the network layer
+oversees source-to-destination delivery of individual packets, it does not recognize
+any relationship between those packets. The transport layer,
+ensures that the whole message arrives intact and in order, overseeing
+both error control and flow control at the source-to-destination level.
+
+ Connection control. The transport layer can be either connectionless or connectionoriented.
+A connectionless transport layer treats each segment as an independent
+packet and delivers it to the transport layer at the destination machine. A connectionoriented
+transport layer makes a connection with the transport layer at the destination
+machine first before delivering the packets. After all the data are transferred,
+the connection is terminated.
+o Error control. Like the data link layer, the transport layer is responsible for
+error control. However, error control at this layer is performed process-toprocess
+rather than across a single link. The sending transport layer makes sure
+that the entire message arrives at the receiving transport layer without error
+(damage, loss, or duplication). Error correction is usually achieved through
+retransmission.
+
+SESSION Layer:-controls the dialogues(connection) between the local and remote applications.
+session layer is responsible for establishing ,managing ,synchronizing,and terminating sessions between end-user application processes.
+it allows the system to communicate in either half-duplex or full-duplex mode of communication.
+
+Presentation layer:- translates the data from a user-dependent format to the common binary format.
+Some functions of the presentation layer include character-code translation,data conversion ,and data-encryption and decryption,and data translation .
+
+Application layer:-The application layer is responsible for providing services to the user.
+The application layer allows users to send data,access data and use networks.
+It provides user interfaces and support for services such as electronic mail,
+remote file access and transfer, shared database management, and other types of distributed
+information services.

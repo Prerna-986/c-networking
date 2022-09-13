@@ -205,3 +205,11 @@ The application layer allows users to send data,access data and use networks.
 It provides user interfaces and support for services such as electronic mail,
 remote file access and transfer, shared database management, and other types of distributed
 information services.
+SUMMARY OF OSI MODEL
+PHYSICAL LAYER:-to transmit bits over a medium to provide ,mechanical and electrical specification.
+DATA LINK LAYER:-To organize bits into frames to provide node-to-node delivery.
+NETWORK LAYER:-To move packets from source to destination to provide internetworking.
+TRANSPORT LAYER:-TO provide reliable end-to-end message delivery and error recovery.
+SESSION LAYER:-To establish manage,terminate sessions.
+PRESENTATION LAYER:-To translate,encryt and compress data.
+APPLICATION LAYER:-To allow access to network resources.

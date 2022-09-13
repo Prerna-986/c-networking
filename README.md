@@ -158,7 +158,8 @@ layer ensures that each packet gets from its point of origin to its final destin
 If two systems are connected to the same link, there is usually no need for a network
 layer. However, if the two systems are attached to different networks (links) with
 connecting devices between the networks (links), there is often a need for the network
-layer to accomplish source-to-destination delivery. 
+layer to accomplish source-to-destination delivery.
+  
 Other responsibilities of the network layer include the following:
 o Logical addressing. The physical addressing implemented by the data link layer
 handles the addressing problem locally. If a packet passes the network boundary,
@@ -166,6 +167,7 @@ we need another addressing system to help distinguish the source and destination
 systems. The network layer adds a header to the packet coming from the upper
 layer that, among other things, includes the logical addresses of the sender and
 receiver. 
+  
 o Routing. When independent networks or links are connected to create intemetworks
 (network of networks) or a large network, the connecting devices (called routers or switches)
 route or switch the packets to their final destination. One of the functions
@@ -179,12 +181,14 @@ any relationship between those packets. The transport layer,
 ensures that the whole message arrives intact and in order, overseeing
 both error control and flow control at the source-to-destination level.
 
+  
  Connection control. The transport layer can be either connectionless or connectionoriented.
 A connectionless transport layer treats each segment as an independent
 packet and delivers it to the transport layer at the destination machine. A connectionoriented
 transport layer makes a connection with the transport layer at the destination
 machine first before delivering the packets. After all the data are transferred,
 the connection is terminated.
+  
  
 o Error control. Like the data link layer, the transport layer is responsible for
 error control. However, error control at this layer is performed process-toprocess
@@ -192,24 +196,35 @@ rather than across a single link. The sending transport layer makes sure
 that the entire message arrives at the receiving transport layer without error
 (damage, loss, or duplication). Error correction is usually achieved through
 retransmission.
+  
 
 SESSION Layer:-controls the dialogues(connection) between the local and remote applications.
 session layer is responsible for establishing ,managing ,synchronizing,and terminating sessions between end-user application processes.
 it allows the system to communicate in either half-duplex or full-duplex mode of communication.
 
+  
 Presentation layer:- translates the data from a user-dependent format to the common binary format.
 Some functions of the presentation layer include character-code translation,data conversion ,and data-encryption and decryption,and data translation .
 
+  
 Application layer:-The application layer is responsible for providing services to the user.
 The application layer allows users to send data,access data and use networks.
 It provides user interfaces and support for services such as electronic mail,
 remote file access and transfer, shared database management, and other types of distributed
 information services.
+  
 SUMMARY OF OSI MODEL
+  
 PHYSICAL LAYER:-to transmit bits over a medium to provide ,mechanical and electrical specification.
+  
 DATA LINK LAYER:-To organize bits into frames to provide node-to-node delivery.
+  
 NETWORK LAYER:-To move packets from source to destination to provide internetworking.
+  
 TRANSPORT LAYER:-TO provide reliable end-to-end message delivery and error recovery.
+  
 SESSION LAYER:-To establish manage,terminate sessions.
+  
 PRESENTATION LAYER:-To translate,encryt and compress data.
+  
 APPLICATION LAYER:-To allow access to network resources.

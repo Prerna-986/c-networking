@@ -1,4 +1,4 @@
-DATA COMMUNICATION
+# DATA COMMUNICATION
 Data:-information presented in whatever form 
 Data communication are the exchange of data between two devices via some form of transmission medium such as a wire cable.
 
@@ -10,7 +10,7 @@ four fundamental characteristics :delivery,accuracy,timeliness and jitter
 the delivery of audio or video packets.
 
 
-DATA COMMUNICATION HAS FIVE COMPONENTS
+### DATA COMMUNICATION HAS FIVE COMPONENTS
 1.Message:-the message is the information to be communicated.Popular form of information include text,numbers,pictures,audio,and video.
 2.Sender:-The sender is the device that sends the data message.It can be a computer,telephone handset,video camera and so on.
 3.Receiver:The receiver is the device that receives the message.It can be a computer,workstation,telephone,handset,television and so on.
@@ -19,7 +19,7 @@ DATA COMMUNICATION HAS FIVE COMPONENTS
 devices may be connected but not communicating, just as a person speaking French
 cannot be understood by a person who speaks only Japanese.
 
-Data Flow
+#### Data Flow
 Communication between two devices can be simplex, half-duplex, or full-duplex .
 Simplex
 In simplex mode, the communication is unidirectional, as on a one-way street. Only one
@@ -28,7 +28,7 @@ Keyboards and traditional monitors are examples of simplex devices. The keyboard
 can only introduce input; the monitor can only accept output. The simplex mode
 can use the entire capacity of the channel to send data in one direction.
 
-Half-Duplex
+#### Half-Duplex
 In half-duplex mode, each station can both transmit and receive, but not at the same time. :
 When one device is sending, the other can only receive, and vice vers.
 The half-duplex mode is like a one-lane road with traffic allowed in both directions.

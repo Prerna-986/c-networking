@@ -162,14 +162,14 @@ connecting devices between the networks (links), there is often a need for the n
 layer to accomplish source-to-destination delivery.
   
 ## Other responsibilities of the network layer include the following:
-### Logical addressing. The physical addressing implemented by the data link layer
+#### Logical addressing. The physical addressing implemented by the data link layer
 handles the addressing problem locally. If a packet passes the network boundary,
 we need another addressing system to help distinguish the source and destination
 systems. The network layer adds a header to the packet coming from the upper
 layer that, among other things, includes the logical addresses of the sender and
 receiver. 
   
-### Routing. When independent networks or links are connected to create intemetworks
+#### Routing. When independent networks or links are connected to create intemetworks
 (network of networks) or a large network, the connecting devices (called routers or switches)
 route or switch the packets to their final destination. One of the functions
 of the network layer is to provide this mechanism.
@@ -183,7 +183,7 @@ ensures that the whole message arrives intact and in order, overseeing
 both error control and flow control at the source-to-destination level.
 
   
-### Connection control. The transport layer can be either connectionless or connectionoriented.
+#### Connection control. The transport layer can be either connectionless or connectionoriented.
 A connectionless transport layer treats each segment as an independent
 packet and delivers it to the transport layer at the destination machine. A connectionoriented
 transport layer makes a connection with the transport layer at the destination
@@ -191,7 +191,7 @@ machine first before delivering the packets. After all the data are transferred,
 the connection is terminated.
   
  
-### Error control. Like the data link layer, the transport layer is responsible for
+#### Error control. Like the data link layer, the transport layer is responsible for
 error control. However, error control at this layer is performed process-toprocess
 rather than across a single link. The sending transport layer makes sure
 that the entire message arrives at the receiving transport layer without error

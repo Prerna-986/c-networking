@@ -229,7 +229,7 @@ information services.
 ##### PRESENTATION LAYER:-To translate,encryt and compress data.
   
 ##### APPLICATION LAYER:-To allow access to network resources.
-#TCPIIP MODEL
+# TCPIIP MODEL
 
 The original TCP/IP protocol having four layers: host-to-network,
 internet, transport, and application. However, when TCP/IP is compared to OSI, we can
@@ -253,11 +253,11 @@ At the physical and data link layers, TCPIIP does not define any specific protoc
 supports all the standard and  protocols. A network in a TCPIIP internetwork
 can be a local-area network or a wide-area network.
 
-###Network Layer
+### Network Layer
 At the network layer TCP/IP supportsthe Internetworking Protocol. IP uses four supporting protocols:
 ARP,RARP, ICMP, and IGMP. 
 
-####Internetworking Protocol (IP)
+#### Internetworking Protocol (IP)
 The Internetworking Protocol (IP) is the transmission mechanism used by the TCP/IP
 protocols. It is an unreliable and connectionless protocol-a best-effort delivery service.
 The term best effort means that IP provides no error checking or tracking. IP assumes
@@ -278,7 +278,7 @@ is identified by a physical or station address, usually imprinted on the network
 card (NIC). ARP is used to find the physical address of the node when its Internet
 address is known. 
 
-####Reverse Address Resolution Protocol
+#### Reverse Address Resolution Protocol
 The Reverse Address Resolution Protocol (RARP) allows a host to discover its Internet
 address when it knows only its physical address. It is used when a computer is connected
 to a network for the first time or when a diskless computer is booted. 
@@ -288,11 +288,11 @@ The Internet Control Message Protocol (ICMP) is a mechanism used by hosts and
 gateways to send notification of datagram problems back to the sender. ICMP sends
 query and error reporting messages. 
 
-####Internet Group Message Protocol
+#### Internet Group Message Protocol
 The Internet Group Message Protocol (IGMP) is used to facilitate the simultaneous
 transmission of a message to a group of recipients. 
 
-###Transport Layer
+### Transport Layer
 Traditionally the transport layer was represented in TCP/IP by two protocols: TCP and
 UDP. IP is a host-to-host protocol, meaning that it can deliver a packet from one
 physical device to another. UDP and TCP are transport level protocols responsible
@@ -300,12 +300,12 @@ for delivery of a message from a process (running program) to another process. A
 transport layer protocol, SCTP, has been devised to meet the needs of some newer
 applications.
 
-####User Datagram Protocol
+#### User Datagram Protocol
 The User Datagram Protocol (UDP) is the simpler of the two standard TCPIIP transport
 protocols. It is a process-to-process protocol that adds only port addresses, checksum
 error control, and length information to the data from the upper layer.
 
-####Transmission Control Protocol
+#### Transmission Control Protocol
 The Transmission Control Protocol (TCP) provides full transport-layer services to
 applications. TCP is a reliable stream transport protocol. The term stream
 means connection-oriented: A connection must be established between both ends
@@ -317,21 +317,21 @@ are carried across the internet inside of IP datagrams. At the receiving end, TC
 each datagram as it comes in and reorders the transmission based on sequence
 numbers.
 
-####Stream Control Transmission Protocol
+#### Stream Control Transmission Protocol
 The Stream Control Transmission Protocol (SCTP) provides support for newer
 applications such as voice over the Internet. It is a transport layer protocol that combines
 the best features of UDP and TCP. 
 
-###Application Layer
+### Application Layer
 The application layer in TCPIIP is equivalent to the combined session, presentation,
 and application layers in the OSI modeL .
 
-##ADDRESSING
+## ADDRESSING
 Four levels of addresses are used in an internet employing the TCP/IP protocols:
 physical (link) addresses, logical (IP) addresses, port addresses, and specific
 addresses .
 
-####Physical Addresses
+#### Physical Addresses
 The physical address, also known as the link address, is the address of a node as defined
 by its LAN or WAN. It is included in the frame used by the data link layer. It is the
 lowest-level address.
@@ -343,7 +343,7 @@ time the station comes up.
                            07:01:02:01 :2C:4B
                A 6-byte (12 hexadecimal digits) physical address.
                
-####Logical Addresses
+#### Logical Addresses
 Logical addresses are necessary for universal communications that are independent of
 underlying physical networks. Physical addresses are not adequate in an internetwork
 environment where different networks can have different address formats. A universal
@@ -351,7 +351,7 @@ addressing system is needed in which each host can be identified uniquely.
  A logical address in the Internetis currently a 32-bit address that can uniquely define a host connected to the Internet. No
 two publicly addressed and visible hosts on the Internet can have the same IP address.
 
-####Port Addresses
+#### Port Addresses
 The IP address and the physical address are necessary for a quantity of data to travel
 from a source to the destination host. However, arrival at the destination host is not the
 final objective of data communications on the Internet. A system that sends nothing but
@@ -366,7 +366,7 @@ process is called a port address. A port address in TCPIIP is 16 bits in length.
                        753
        A 16-bit port address represented as one single number
 
-####Specific Addresses
+#### Specific Addresses
 Some applications have user-friendly addresses that are designed for that specific address.
 Examples include the e-mail address (for example, forouzan@fhda.edu) and the Universal
 Resource Locator (URL) (for example, www.google.com). The first defines the recipient of

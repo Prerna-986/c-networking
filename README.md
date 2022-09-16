@@ -374,4 +374,55 @@ an e-mail ; the second is used to find a document on the World Wide Web.
 These addresses, however, get changed to the corresponding port and
 logical addresses by the sending computer.
 
+## ANALOG AND DIGITAL DATA
+Data can be analog or digital. Analog data are continuous and take continuous values.
+Digital data have discrete states and take discrete values.For example, an analog
+clock that has hour, minute, and second hands gives information in a continuous form;
+the movements of the hands are continuous. On the other hand, a digital clock that
+reports the hours and the minutes will change suddenly from 8:05 to 8:06.
 
+## ANALOG AND DIGITAL SIGNALS
+Signals can be analog or digital. Analog signals can have an infinite number of
+values in a range; digital signals can have only a limited number of values.
+
+ ### Periodic and Nonperiodic Signals
+Both analog and digital signals can take one of two forms: periodic or nonperiodic.
+
+A periodic signal completes a pattern within a measurable time frame, called a
+period, and repeats that pattern over subsequent identical periods. The completion of
+one full pattern is called a cycle. A nonperiodic signal changes without exhibiting a pattern
+or cycle that repeats over time.
+Both analog and digital signals can be periodic or nonperiodic.
+In data communications, we commonly use periodic (because they need less bandwidth).
+analog signals and nonperiodic digital signals.(because they  can represent variation in data)
+#### PERIODIC ANALOG SIGNALS
+Periodic analog signals can be classified as simple or composite. A simple periodic
+analog signal, a sine wave, cannot be decomposed into simpler signals. A composite
+periodic analog signal is composed of multiple sine waves.
+##### Period and Frequency
+Period refers to the amount of time, in seconds, a signal needs to complete 1 cycle.
+Frequency refers to the number of periods in I s. 
+f=1/T and T=1/f
+Frequency and period are the inverse of each other.
+#### CONTINUOUS ANALOG SIGNALS
+Any composite signal is a combination of
+simple sine waves with different frequencies, amplitudes, and phases.
+A composite signal can be periodic or nonperiodic. A periodic composite signal
+can be decomposed into a series of simple sine waves with discrete frequencies.frequencies
+that have integer values (1, 2, 3, and so on). A nonperiodic composite signal
+can be decomposed into a combination of an infinite number of simple sine waves
+with continuous frequencies, frequencies that have real values.
+
+### BANDWIDTH
+The bandwidth of a composite signal is the difference between the
+highest and the lowest frequencies contained in that signal.
+
+### DIGITAL SIGNALS
+#### BIT RATE
+Most digital signals are nonperiodic, and thus period and frequency are not appropriate
+characteristics. Another term-bit rate (instead  of frequency)-is used to describe
+digital signals. The bit rate is the number of bits sent in Is, expressed in bits per
+second (bps).
+#### BIT LENGTH
+ The bit length is the distance one bit occupies on the transmission medium.
+Bit length =propagation speed x bit duration

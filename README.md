@@ -464,4 +464,4 @@ These devices act as a sending antenna, and the transmission medium acts as the
 receiving antenna. Crosstalk is the effect of one wire on the other. One wire acts as a
 sending antenna and the other as the receiving antenna. Impulse noise is a spike (a signal
 with high energy in a very short time) that comes from power lines, lightning, and so
-on. the effect of noise on a signal. We discuss error in Chapter 10.
+on.

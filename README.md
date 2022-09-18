@@ -426,3 +426,42 @@ second (bps).
 #### BIT LENGTH
  The bit length is the distance one bit occupies on the transmission medium.
 Bit length =propagation speed x bit duration
+## TRANSMISSION IMPAIRMENT
+Signals travel through transmission media, which are not perfect. The imperfection causes
+signal impairment. This means that the signal at the beginning of the medium is not the
+same as the signal at the end of the medium. What is sent is not what is received. Three
+causes of impairment are attenuation, distortion, and noise.
+                 impairement causes
+                        ||
+        ||--------------||---------------||
+    attenuation     distortion          noise
+ ### Attenuation
+Attenuation means a loss of energy. When a signal, simple or composite, travels
+through a medium, it loses some of its energy in overcoming the resistance of the
+medium. That is why a wire carrying electric signals gets warm, if not hot, after a
+while. Some of the electrical energy in the signal is converted to heat. To compensate
+for this loss, amplifiers are used to amplify the signal.
+The decibel (dB) measures the relative strengths of two signals or one signal at two different
+points. ## db=10log10P2/p1
+
+### Distortion
+Distortion means that the signal changes its form or shape. Distortion can occur in a
+composite signal made of different frequencies. Each signal component has its own
+propagation speed through a medium and, therefore, its owndelay in arriving at the final destination.
+Differences in delay may create a difference in
+phase if the delay is not exactly the same as the period duration. In other words, signal
+components at the receiver have phases different from what they had at the sender. The
+shape of the composite signal is therefore not the same. the effect of
+distortion on a composite signal.
+
+### Noise
+Noise
+Noise is another cause of impairment. Several types of noise, such as thermal noise,
+induced noise, crosstalk, and impulse noise, may corrupt the signal. Thermal noise is
+the random motion of electrons in a wire which creates an extra signal not originally
+sent by the transmitter. Induced noise comes from sources such as motors and appliances.
+These devices act as a sending antenna, and the transmission medium acts as the
+receiving antenna. Crosstalk is the effect of one wire on the other. One wire acts as a
+sending antenna and the other as the receiving antenna. Impulse noise is a spike (a signal
+with high energy in a very short time) that comes from power lines, lightning, and so
+on. the effect of noise on a signal. We discuss error in Chapter 10.
